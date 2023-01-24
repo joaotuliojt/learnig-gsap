@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Sora;
+  cursor: none;
+}
+
+.hero {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("../images/bg1.jpg") center center;
+  background-size: cover;
+  color: #FFF;
+  position: relative;
+}
+.hero h1 {
+  font-size: 68px;
+  font-weight: 400;
+}
+.hero span {
+  background: -webkit-linear-gradient(419deg, #21D4FD 0%, #B721FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer {
+  position: absolute;
+  bottom: 40px;
+  color: #FFF;
+  font-weight: 500;
+}
+.footer a {
+  color: #8257E5;
+}
+
+.cursor {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  /* background-color: #8257E5; */
+  background-color: #ffffff;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}/*# sourceMappingURL=style.css.map */
